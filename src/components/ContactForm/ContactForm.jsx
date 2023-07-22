@@ -69,7 +69,7 @@ export const ContactForm = ({ onSubmit }) => {
         <Button type="submit">Add contact</Button>
       </FormContainer>
     </Formik>
-  ); // при настанні події onSubmit викликається метод formSubmit
+  ); // при настанні події onSubmit викликається функція formSubmit
 }; // повернення для рендеру розмітки форми (теги Label і Input для кожного поля форми та тег Button)
 
 ContactForm.propTypes = {
